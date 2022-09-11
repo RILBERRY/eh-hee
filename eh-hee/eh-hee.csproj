@@ -67,12 +67,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="home_dona.aspx" />
     <Content Include="LoginForm.aspx" />
     <Content Include="res\logo.png" />
     <Content Include="res\mainLogo.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dona.Master.cs">
+      <DependentUpon>dona.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dona.Master.designer.cs">
+      <DependentUpon>dona.Master</DependentUpon>
+    </Compile>
+    <Compile Include="home_dona.aspx.cs">
+      <DependentUpon>home_dona.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home_dona.aspx.designer.cs">
+      <DependentUpon>home_dona.aspx</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.aspx.cs">
       <DependentUpon>LoginForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -83,6 +98,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dona.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
