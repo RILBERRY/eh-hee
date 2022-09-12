@@ -52,6 +52,20 @@
             background-color: cadetblue;
             
         }
+        .heading{
+            padding: 20px;
+            color:white;
+        }
+        .contantCont{
+            position:relative;
+            left: 50%;
+            transform: translateX(-50%);
+            width:85%;
+            height: 80%;
+            margin: 50px;
+            background-color: rgba(128, 128, 128, .20);
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
@@ -70,9 +84,6 @@
                 <div class="row_1"><a href="../LoginForm.aspx">LOGOUT</a></div>
             </div>
             <div class="mainContant">
-                <div class="topPanel">
-
-                </div>
                 <asp:ContentPlaceHolder ID="dona_main" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
