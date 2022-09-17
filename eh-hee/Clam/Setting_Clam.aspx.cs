@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace eh_hee
 {
-    public partial class home_dona : System.Web.UI.Page
+    public partial class Setting_Clam : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

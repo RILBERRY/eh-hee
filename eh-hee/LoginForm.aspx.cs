@@ -13,5 +13,21 @@ namespace eh_hee
         {
 
         }
+
+        protected void Login_Click(object sender, EventArgs e)
+        {
+            if(NID.Text == "A123123")
+            {
+                Response.Redirect("~/Dona/Home.aspx");
+            }
+            else if(NID.Text == "A123456")
+            {
+
+            }
+            else if(IsAsync+NID.Text == "A654321")            {
+                Response.Redirect("~/Clam/ClamHome.aspx");
+            }
+
+        }
     }
 }

@@ -1,14 +1,15 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="dona.master.cs" Inherits="eh_hee.dona" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Dona.Master.cs" Inherits="eh_hee.Dona" %>
 
 <!DOCTYPE html>
 
 <html>
 <head runat="server">
     <title></title>
-    <asp:ContentPlaceHolder ID="dona_head" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style>
         *{
+
             margin :0 ;
             padding:0;
         }
@@ -69,7 +70,7 @@
     </style>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="Dona" runat="server">
         <div class="mainCont">
             <div class="sideNav">
                 <div class="row_1">
@@ -78,13 +79,13 @@
                 <div class="row_2" >
                     <asp:Image ID="Image2" runat="server"  ImageUrl="~/res/Logo.png" Width="152px" />
                 </div>
-                <div class="row_1"><a href="#">DONATIONS</a></div>
-                <div class="row_1"><a href="#">REQUESTS</a></div>
-                <div class="row_1"><a href="#">SETTING</a></div>
-                <div class="row_1"><a href="../LoginForm.aspx">LOGOUT</a></div>
+                <div class="row_1"><a href="home.aspx">DONATIONS</a></div>
+                <div class="row_1"><a href="request.aspx">REQUESTS</a></div>
+                <div class="row_1"><a href="setting.aspx">SETTING</a></div>
+                <div class="row_1"><a href="/LoginForm.aspx">LOGOUT</a></div>
             </div>
             <div class="mainContant">
-                <asp:ContentPlaceHolder ID="dona_main" runat="server">
+                <asp:ContentPlaceHolder ID="main" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
         </div>

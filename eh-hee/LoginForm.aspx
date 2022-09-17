@@ -11,7 +11,7 @@
         }
         .Cont{
             width: 1000px;
-            margin:auto;
+            margin: auto;
         } 
         .MainCont{
             width: 100%;
@@ -96,7 +96,7 @@
                         <div class="btn navBtn">Register</div>
                         <div class="btn navBtn">Reset</div>
                     </div>
-                    <form class="formCont" id="form1" runat="server" visible="False">
+                    <form class="formCont" id="form1" runat="server">
                         <h2 class="MiniHeadder">Login</h2>
                         <div class="Err">
                             <asp:Label Text="Error"  runat="server" /><br />
@@ -108,10 +108,10 @@
                         <asp:TextBox class="textField" ID="Number" runat="server"></asp:TextBox><br/><br/>  
                         <asp:Label class="Lbl" Text="Mobile Password"  runat="server" /><br />
                         <asp:TextBox class="textField" ID="Password" runat="server"></asp:TextBox><br/><br/> 
-                        <asp:Button ID="Login" class="btn greenBtn" runat="server" Text="Login" />
+                        <asp:Button ID="Login" class="btn greenBtn" runat="server" Text="Login" OnClick="Login_Click" />
 
                     </form>
-                    <form class="formCont" id="form2" runat="server">
+                    <form class="formCont" id="form2" runat="server"  visible="False">
                         <h2 class="MiniHeadder">Register</h2>
                         <div class="Err">
                             <asp:Label Text="Error"  runat="server" /><br />

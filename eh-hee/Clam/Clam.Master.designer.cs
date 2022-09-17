@@ -11,26 +11,17 @@ namespace eh_hee
 {
 
 
-    public partial class dona
+    public partial class Dona
     {
 
         /// <summary>
-        /// dona_head control.
+        /// head control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder dona_head;
-
-        /// <summary>
-        /// form1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
 
         /// <summary>
         /// Image1 control.
@@ -51,12 +42,12 @@ namespace eh_hee
         protected global::System.Web.UI.WebControls.Image Image2;
 
         /// <summary>
-        /// dona_main control.
+        /// main control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder dona_main;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder main;
     }
 }
